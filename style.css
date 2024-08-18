@@ -3,17 +3,17 @@
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
-html,body{
+html, body{
   display: grid;
   height: 100%;
   place-items: center;
-  background: #000;
+  background-image: linear-gradient(to right top, #161618, #736c7f);
 }
 .wrapper{
   height: 100px;
   width: 360px;
   position: relative;
-  background: linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+  background-image: linear-gradient(to right top, #161618, #736c7f);
   border-radius: 10px;
   cursor: default;
   animation: animate 1.5s linear infinite;
